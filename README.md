@@ -1,6 +1,7 @@
 # Honeypot-Based Intrusion Detection Lab
 
  Overview
+ 
 This project demonstrates the deployment of a honeypot-based intrusion detection environment using OpenCanary and Samba on Ubuntu Linux. It simulates real-world attacker behavior against SSH, HTTP, and SMB services, capturing logs and mapping activity to the MITRE ATT&CK framework.
 
  Objectives
