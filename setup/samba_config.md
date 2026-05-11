@@ -1,7 +1,7 @@
 
 samba_config.md
 ```markdown
-# Samba Finance Share Configuration
+Samba Finance Share Configuration
 
  Purpose
 A fake Finance SMB share was created to simulate sensitive enterprise data exposure.
