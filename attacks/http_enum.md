@@ -2,7 +2,7 @@
 
  `http_enum.md`
 ```markdown
-# HTTP Enumeration Simulation
+HTTP Enumeration Simulation
 
  Purpose
 Simulate attacker probing for sensitive web application configuration files.
