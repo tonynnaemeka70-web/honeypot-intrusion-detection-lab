@@ -1,0 +1,12 @@
+HTTP Detection Log
+
+ Raw Log Output
+
+"127.0.0.1" - - [06/May/2026:03:33:05 +0000] "GET /config.php HTTP/1.1" 404 262 "-" "curl/8.5.0"
+
+
+ Note
+- Unauthorized HTTP probing detected  
+- Attempt to access `/config.php` (possible credential/config file)  
+- Maps to MITRE ATT&CK T1046 (Network Service Scanning) and T1552 (Exploitation for Credential Access)  
+
