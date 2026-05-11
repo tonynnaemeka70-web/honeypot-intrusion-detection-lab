@@ -30,8 +30,10 @@ Detection Evidence
 
 -Access to Finance directory
 
+-Retrieval attempt of decoy file
+
 This activity maps to MITRE ATT&CK T1021.002 (SMB/Windows Admin Shares) and T1083 (File and Directory Discovery).
 It highlights the risk of weak SMB access controls and demonstrates how attackers can enumerate and exfiltrate sensitive files.
 The honeypot successfully simulated exposure and logged the attacker’s behavior.
 
-Retrieval attempt of decoy file
+
