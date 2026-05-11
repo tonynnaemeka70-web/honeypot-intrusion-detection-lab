@@ -1,6 +1,4 @@
 
-
- `http_enum.md`
 ```markdown
 HTTP Enumeration Simulation
 
