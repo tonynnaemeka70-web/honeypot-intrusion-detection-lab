@@ -1,1 +1,21 @@
+ SSH Detection Log
+
+ Raw Log Output
+
+2026-04-28T05:46:30+0100 [-] HoneyPotSSHFactory starting on 2222
+"dst_host": "127.0.0.1", "dst_port": 2222, "local_time": "2026-04-28 05:03:54.098379",
+"logdata": {"SESSION": "0"}, "logtype": 4000, "src_host": "127.0.0.1", "src_port": 50892
+
+2026-04-28T06:04:33+0100 [opencanary.modules.ssh.HoneyPotSSHUserAuthServer#debug] b'test' trying auth b'password'
+"logdata": {"USERNAME": "test", "PASSWORD": "ubuntu"}, "logtype": 4002
+
+
+Note
+- Unauthorized login attempts detected on SSH honeypot port 2222  
+- Username enumeration observed (`test`)  
+- Password attempt captured (`ubuntu`)  
+- Maps to MITRE ATT&CK T1110 (Brute Force)
+
+
+
 
