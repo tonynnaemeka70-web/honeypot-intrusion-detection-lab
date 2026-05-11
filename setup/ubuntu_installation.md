@@ -4,6 +4,7 @@
 Ubuntu Desktop was installed inside VMware Workstation to serve as the honeypot server.
 
  Installed Packages
+ 
 The following packages were installed to support OpenCanary and Samba:
 
 ```bash
