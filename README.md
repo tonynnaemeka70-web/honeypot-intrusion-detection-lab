@@ -19,13 +19,13 @@ This project demonstrates the deployment of a honeypot-based intrusion detection
 - SSH, Curl, smbclient (Attack Simulation)
 
  Repository Structure
-- `docs/` → Lab report summary, MITRE mapping, challenges
-- `setup/` → Installation & configuration guides
-- `attacks/` → Attack simulation steps
-- `logs/` → Detection logs from OpenCanary
-- `findings/` → SOC-style analysis of attacker behavior
-- `recommendations/` → Security hardening suggestions
-- `screenshots/` → Visual proof of environment & attacks
+- `docs/`  Lab report summary, MITRE mapping, challenges
+- `setup/`  Installation & configuration guides
+- `attacks/`  Attack simulation steps
+- `logs/`  Detection logs from OpenCanary
+- `findings/`  SOC-style analysis of attacker behavior
+- `recommendations/`  Security hardening suggestions
+- `screenshots/`  Visual proof of environment & attacks
 
  Key Findings
 - SSH brute-force attempts detected
