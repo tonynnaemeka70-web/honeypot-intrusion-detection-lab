@@ -1,0 +1,20 @@
+ SMB Detection Log
+
+ Raw Log Output
+
+Sharename       Type      Comment
+
+print$          Disk      Printer Drivers
+Finance         Disk
+IPC$            IPC       IPC Service (gracious-VMware-Virtual-Platform server (Samba, Ubuntu))
+
+smb: \> ls
+2026_Salary_Bonuses.xlsx
+
+
+ Note
+- Unauthorized SMB share enumeration observed  
+- Finance share listed and accessed  
+- Decoy file `2026_Salary_Bonuses.xlsx` retrieved  
+- Maps to MITRE ATT&CK T1021.002 (SMB/Windows Admin Shares) and T1083 (File and Directory Discovery)  
+
