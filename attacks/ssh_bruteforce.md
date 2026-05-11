@@ -8,23 +8,23 @@ Attack Command
 ssh test@localhost -p 2222
 
 Expected Behavior
-Prompt for authenticity of host
+-Prompt for authenticity of host
 
-Password prompt for user test
+-Password prompt for user test
 
-Multiple failed login attempts
+-Multiple failed login attempts
 
 Detection Evidence
 
-OpenCanary captured:
+-OpenCanary captured:
 
-Source IP: 127.0.0.1
+-Source IP: 127.0.0.1
 
-Username: test
+-Username: test
 
-Password attempt: ubuntu
+-Password attempt: ubuntu
 
-Logtype: 4002 (failed authentication)
+-Logtype: 4002 (failed authentication)
 
 This activity maps to MITRE ATT&CK T1110 (Brute Force).
 It demonstrates how attackers attempt credential stuffing or brute force to gain access.
