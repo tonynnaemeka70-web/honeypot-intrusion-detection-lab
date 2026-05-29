@@ -19,7 +19,6 @@ This project demonstrates the deployment of a honeypot-based intrusion detection
 - SSH, Curl, smbclient (Attack Simulation)
 
  Repository Structure
-Repository Structure
 - [docs/](docs) → Lab report summary, MITRE mapping, challenges  
 - [setup/](setup) → Installation & configuration guides  
 - [attacks/](attacks) → Attack simulation steps  
