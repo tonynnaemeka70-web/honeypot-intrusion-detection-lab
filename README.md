@@ -19,13 +19,15 @@ This project demonstrates the deployment of a honeypot-based intrusion detection
 - SSH, Curl, smbclient (Attack Simulation)
 
  Repository Structure
-- `docs/`  Lab report summary, MITRE mapping, challenges
-- `setup/`  Installation & configuration guides
-- `attacks/`  Attack simulation steps
-- `logs/`  Detection logs from OpenCanary
-- `findings/`  SOC-style analysis of attacker behavior
-- `recommendations/`  Security hardening suggestions
-- `screenshots/`  Visual proof of environment & attacks
+Repository Structure
+- [docs/](docs) → Lab report summary, MITRE mapping, challenges  
+- [setup/](setup) → Installation & configuration guides  
+- [attacks/](attacks) → Attack simulation steps  
+- [logs/](logs) → Detection logs from OpenCanary  
+- [findings/](findings) → SOC-style analysis of attacker behavior  
+- [recommendations/](recommendations) → Security hardening suggestions  
+- [screenshots/](screenshots) → Visual proof of environment & attacks
+
 
  Key Findings
 - SSH brute-force attempts detected
@@ -46,6 +48,15 @@ This project demonstrates the deployment of a honeypot-based intrusion detection
 - Disable unnecessary exposed services
 - Implement centralized log monitoring (SIEM)
 - Conduct regular vulnerability assessments
+
+- Analyst Perspective
+This project reflects realistic SOC analyst workflows:
+- Monitoring honeypot logs  
+- Identifying attacker techniques  
+- Mapping activity to MITRE ATT&CK  
+- Providing actionable recommendations  
+
+It demonstrates capability in detection engineering, incident analysis, and security monitoring — core skills for SOC analyst roles.
 
 
 
